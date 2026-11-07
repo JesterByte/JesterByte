@@ -1,98 +1,75 @@
-# Hi, I'm Eugine Jose 👋
+<h1 align="center">Eugine Jester Jose</h1>
 
-### Backend-Minded Full-Stack & Cross-Platform Mobile Engineer
+<p align="center">
+  <b>Software Engineer · Full-Stack &amp; Cross-Platform · Legacy Modernization</b><br>
+  Bocaue, Bulacan, Philippines
+</p>
 
-I'm a software engineer from the Philippines focused on building maintainable applications, modernizing legacy systems, and solving practical engineering problems.
-
-My professional experience spans **Flutter, Laravel, Next.js, and C#/.NET**, with a particular interest in clean architecture, offline-first applications, API integrations, and cross-platform software development.
-
-I enjoy understanding existing systems, identifying architectural problems, and transforming difficult-to-maintain codebases into more reliable and maintainable applications.
-
-🌐 **Portfolio:** [eugine-jose.vercel.app](https://eugine-jose.vercel.app/)  
-💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/eugine-jester-jose-b31156215/)  
-📍 **Location:** Bulacan, Philippines
+<p align="center">
+  <a href="https://eugine-jose.vercel.app/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/eugine-jester-jose-b31156215/">LinkedIn</a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+I'm a software engineer who likes understanding how a whole system fits together: the database, the business logic, the APIs, and the interface on top. Most of my professional work has been inheriting existing applications with real constraints and improving them incrementally, rather than rewriting for its own sake.
 
-**Languages**
+## What I've worked on
 
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+**Mobile: Cordova to Flutter** · *Vox Dei Protocol Systems*
+Rebuilt a legacy, procedural Cordova app in Flutter with an MVVM structure and Riverpod for state. Data is stored locally with Drift and SQLite and synchronized in both directions with the backend API. Updates ship over the air through Firebase Remote Config and AWS EC2, without going through the Play Store.
 
-**Frameworks & Platforms**
+**Desktop: WinForms to WinUI 3** · *Vox Dei Protocol Systems · in progress*
+Migrating a legacy C# WinForms application to WinUI 3, introducing MVVM and clearer separation of responsibilities as the code moves over.
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+**Backend: Laravel maintenance** · *Vox Dei Protocol Systems*
+Maintaining and extending an existing Laravel application deployed on AWS EC2, working within the limits of its original architecture. CI/CD improvements with GitHub Actions are being prepared.
 
-**Databases, State Management & Tools**
+**CRM integrations: Bitrix24** · *Saabsoft Technology*
+Built PHP webhooks and third-party integrations, automated real-estate lead and deal workflows, and made a Vue.js reporting app on top of Bitrix24. Also diagnosed CRM and integration issues for clients.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Riverpod](https://img.shields.io/badge/Riverpod-00BCD4?style=flat-square&logo=dart&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+## Stack
 
----
+**Used in professional work**
 
-## 💻 Professional Experience
+| Area | Technologies |
+| --- | --- |
+| Mobile | Flutter · Dart · Riverpod · Drift · SQLite · Firebase Remote Config |
+| Backend | PHP · Laravel · REST APIs · Bitrix24 webhooks · MySQL |
+| Desktop | C# · .NET · WinUI 3 · WinForms · MVVM · Entity Framework Core |
+| Web | Vue.js · JavaScript · HTML/CSS · Bootstrap |
+| Infrastructure | AWS EC2 · Git/GitHub · Zapier |
 
-### Software Development & Legacy Modernization
+**Personal and academic projects:** Kotlin · Jetpack Compose · Room · TypeScript · Next.js · React · PostgreSQL
 
-- Modernizing legacy web, mobile, and desktop applications.
-- Refactoring procedural and tightly coupled codebases into more maintainable architectures.
-- Applying MVVM, repository patterns, and service-layer separation where appropriate.
-- Improving application interfaces and user experiences while preserving existing business workflows.
-- Working with Flutter, Laravel, Vue.js, and C#/.NET technologies across different systems.
+**Currently learning:** Docker · CI/CD with GitHub Actions
 
-### Cross-Platform Mobile Development
+## Selected projects
 
-- Developing Flutter applications with Riverpod-based state management.
-- Implementing local persistence using Drift and SQLite.
-- Building offline-first workflows and two-way synchronization with remote APIs.
-- Exploring over-the-air application updates outside conventional app-store release workflows.
+**[Green Haven Memorial Park Management System](https://github.com/JesterByte/ghmp)** · *Completed, academic thesis*
+Replaces manual Excel tracking of memorial lots and payments. Includes an admin system, a [customer app](https://github.com/JesterByte/ghmp-customer), a [kiosk](https://github.com/JesterByte/ghmp-kiosk), and a [map maker](https://github.com/JesterByte/ghmp_map_maker) built on OpenStreetMap, with PayMongo for payments. I led a team of three and did most of the development.
 
-### Backend Development & Integrations
+**[Rose Ledger](https://github.com/JesterByte/rose-ledger)** · *Personal project*
+Android expense tracker built with Kotlin, Jetpack Compose and Room, using MVVM. Includes monthly summaries, category reports, and an archive for old transactions.
 
-- Developing backend functionality using PHP and Laravel.
-- Integrating third-party APIs and connecting applications with external services.
-- Working with REST APIs, SQL databases, and data synchronization workflows.
-- Customizing CRM systems, automating business processes, and troubleshooting integrations.
+**[KainTayo](https://github.com/JesterByte/KainTayo)** · *Personal project, AI-assisted*
+Offline Android TV meal planner for Filipino households. It plans meals and builds a grocery list around a payday budget. Openly vibe-coded: I directed and tested it, and AI wrote most of the code.
 
----
+**Bantay-Kalsada** · *Concept, not built*
+An open-source idea for citizen monitoring of public infrastructure projects in the Philippines, using GPS and photo reports with map-based visualization.
 
-## 🏆 Achievements
+## How I work
 
-- 🥇 Thesis of the Year
-- 🏆 Web Developer of the Year
-- 🥇 Gold — Local Web Development Competition
-- 🥈 Silver — Regional Web Development Competition
+- I read and understand an existing system before changing it.
+- Architecture should manage complexity, not add abstractions for show.
+- Modernize incrementally; don't replace what works.
+- Keep business logic separate from UI and make data flow predictable.
+- Build offline-first where users can't count on a connection, and make sync reliable.
+
+## Recognition
+
+Thesis of the Year · Web Developer of the Year · Gold, local web development competition · Silver, regional web development competition (ACLC College of Santa Maria, B.S. Computer Science, 2025)
 
 ---
 
-## 🎯 Technical Interests
-
-- Software architecture and legacy system modernization
-- Flutter and cross-platform application development
-- Backend engineering and API integrations
-- Offline-first applications and data synchronization
-- Maintainable code, separation of concerns, and clean architecture
-- Full-stack development with TypeScript, Laravel, and .NET
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in meaningful software engineering opportunities, open-source collaboration, and connecting with developers who value thoughtful design and maintainable code.
-
-🌐 [Portfolio](https://eugine-jose.vercel.app/) · 💻 [GitHub](https://github.com/JesterByte) · 💼 [LinkedIn](https://www.linkedin.com/in/eugine-jester-jose-b31156215/)
-
-*Build thoughtfully. Refactor boldly. Keep learning.*
+Open to backend, full-stack, Flutter, .NET, and software modernization roles, including remote and international teams. The best way to reach me is through [LinkedIn](https://www.linkedin.com/in/eugine-jester-jose-b31156215/).
